@@ -1,0 +1,18 @@
+---
+
+version: '3.8'
+
+services:
+  app:
+    image: node:14-slim
+    working_dir: /var/local/app/
+    volumes:
+      - type: bind
+        source: ${PWD}/
+        target: /var/local/app/
+      - type: volume
+        source: node_modules
+        target: /var/local/app/node_modules
+
+volumes:
+  node_modules:
