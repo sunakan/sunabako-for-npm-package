@@ -5,7 +5,7 @@
     "dotenv": "^10.0.0",
     "lodash": "^4.17.21",
     "path": "^0.12.7",
-    "xstate": "^4.23.4"
+    "xstate": "^4.35.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\""
